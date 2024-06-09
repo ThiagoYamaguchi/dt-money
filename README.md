@@ -1,30 +1,59 @@
-# React + TypeScript + Vite
+<p align="center" >
+<img src="src/assets/ignite-logo.svg" alt="last-commit" >
+</p>
+<h1 align="center">
+    Dt-Money
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2 align="center"> Aplicação Rocketseat Dt-Money 💵 </h2>
 
-Currently, two official plugins are available:
+<h2>📷 Preview </h2>
+<h1 align="center">
+  <div style="display: flex; flex-direction: row;">
+    <img width="700" style="border-radius: 10px" height="auto" alt="Class-02" title="Class-02" src="public/dt-money.gif" />
+  <div>
+</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1 align="center">
+  <div style="display: flex; flex-direction: row;">
+    <img width="700" style="border-radius: 10px" height="auto" alt="Class-02" title="Class-02" src="public/home.png" />
+</h1>
 
-## Expanding the ESLint configuration
+<h1 align="center">
+  <div style="display: flex; flex-direction: row;">
+    <img width="700" style="border-radius: 10px" height="auto" alt="Class-02" title="Class-02" src="public/modal.png" />
+  <div>
+</h1>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O Dt-Money é um projeto desenvolvido no curso de ReactJS da Rocketseat. 
 
-- Configure the top-level `parserOptions` property like this:
+<h2 id="technologies"> 🛠 Tecnologias utilizadas: </h2>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Phosphor Icons](https://phosphoricons.com/)
+- [React Hook Form](https://github.com/react-hook-form/react-hook-form)
+- [Styled-Components](https://styled-components.com/)
+- [Zod](https://github.com/colinhacks/zod)
+- [RadixUI](https://www.radix-ui.com/)
+- [JSON Server](https://www.npmjs.com/package/json-server)
+- [Use Context Selector](https://github.com/dai-shi/use-context-selector)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [ESLint](https://eslint.org/)
+
+```bash
+# Clone Repository
+$ git clone https://github.com/ThiagoYamaguchi/dt-money.git
+
+# Go to server folder
+$ cd dt-money
+
+# Install Dependencies
+
+$ npm install
+
+$ npm run dev
+
+$ npm run dev:server
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
